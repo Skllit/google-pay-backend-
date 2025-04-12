@@ -15,7 +15,7 @@ export class EmailService {
       secure: false,                    // use TLS
       auth: {
         user: 'sklallucination@gmail.com', // SMTP username
-        pass: 'jhuo vreu fctq fptv',    // SMTP password
+        pass: 'putyourpasswordbro',    // SMTP password
       },
     });
   }
