@@ -27,7 +27,7 @@ GET http://localhost:3000/users
 You'll get MongoDB IDs (_id) and uuid for each user — you'll use this in the next steps.
 
 ✅ 3. Generate QR Code for a User
-GET http://localhost:3000/users/:id/qrcode
+GET http://localhost:3000/users/:id/qr
 Replace :id with the user’s _id from previous step (e.g. Alice's ID).
 
 Returns: Base64 QR code image (qrCodeDataUri)
